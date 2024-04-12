@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+button{
+    padding: 16px;
+    flex: initial;
+}
+
